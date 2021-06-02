@@ -7,18 +7,24 @@ NassauSt é um app para acompanhamento do mercado financeiro e gestão de cartei
 O App está disponivel para Android, iOS e Windows.
 * NassauSt usa market data do Google Docs (ou GoogleFinance)
 
-##  Uso de cotações do Nassau em planilhas Excel 
-NassauSt (somente na ersão para Windows, versao x.x+ ) suporta serviço de cotações via links DDE.
-Isso permite atualizar suas planilhas com cotações dos mercados mundiais, inclusive Bovespa.
+##  Uso de cotações do Nassau em planilhas Excel ( DDE )
+NassauSt (somente para Windows, versao x.x+ ) suporta atualização cotações via links DDE.
+( DDE é um antigo protocolo de intercambio de dados no Windows, tradicionalmente usado para alimentar planilhas com cotações).
+NassauSt permite acessar cotações dos mercados mundiais, com ênfase Bovespa.
+São disponiveis ações, ETFs, FIIs, BDRs, ADRs na B3, além de alguns ativos da NYSE e NASDAQ.
 
-1) No Windows abra simultaneamente o app NassauSt e o Excel
-2) Download e abra a planilha: 
-   https://github.com/omarreis/NassauSt/blob/main/documentacaoNassauSt_DDESvr.xlsx
-4) Autorize a atualização dos items de cotação  
-  
+1) No Windows abra simultaneamente os apps NassauSt e Excel
+2) Faça o download e abra a planilha de teste: 
+      https://github.com/omarreis/NassauSt/blob/main/documentacaoNassauSt_DDESvr.xlsx
+3) Autorize a atualização dos items da planilha.
+
 Essa planilha Excel ilustra como estabelecer os link para atualização automática.
 
-## download NassauSt: 
+## Facebook
+Novidades do app ão anunciadas nesta pagina: 
+   https://www.facebook.com/Nassaust-101122458817195
+
+## download do app NassauSt: 
 
 * para Windows: https://www.tecepe.com.br/nassau/download   
 * para iOS:     https://apps.apple.com/us/app/nassau-st/id1093819633
