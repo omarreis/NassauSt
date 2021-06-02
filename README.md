@@ -12,9 +12,9 @@ NassauSt (somente na ersão para Windows, versao x.x+ ) suporta serviço de cota
 Isso permite atualizar suas planilhas com cotações dos mercados mundiais, inclusive Bovespa.
 
 1) No Windows abra simultaneamente o app NassauSt e o Excel
-2) Download e abra a planilha abaixo:
+2) Download e abra a planilha: 
    https://github.com/omarreis/NassauSt/blob/main/documentacaoNassauSt_DDESvr.xlsx
-3) Autorize a atualização dos items de cotação  
+4) Autorize a atualização dos items de cotação  
   
 Essa planilha Excel ilustra como estabelecer os link para atualização automática.
 
