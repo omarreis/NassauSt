@@ -1,6 +1,6 @@
 # NassauSt
 
-Esse repositório contem arquivos e tutoriais de suporte ao app Nassau St
+Esse repositório contem arquivos e tutoriais de suporte ao app Nassau St.
 
 ## Sobre NassauSt
 NassauSt é um app para acompanhamento do mercado financeiro e gestão de carteiras de ativos financeiros.
@@ -12,6 +12,12 @@ O App está disponivel para Android, iOS e Windows.
 NassauSt na versão para Windows suporta serviço de cotações via links DDE.
 A planilha Excel abaixo ilustra como estabelecer os link para atualizaçãop automática.
 
-download: 
+## download NassauSt: 
 
+* para Windows: https://www.tecepe.com.br/nassau/download   
+* para iOS:     https://apps.apple.com/us/app/nassau-st/id1093819633
+* para Android: https://play.google.com/store/apps/details?id=com.embarcadero.Nassau 
+
+## Site web
+* https://www.tecepe.com.br/nassau
 
