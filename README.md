@@ -21,7 +21,8 @@ São disponiveis ações, ETFs, FIIs, BDRs, ADRs na B3, além de alguns ativos d
 Essa planilha Excel ilustra como estabelecer os link para atualização automática.
 
 ## Facebook
-Novidades do app ão anunciadas nesta pagina: 
+Novidades e dicas do app são publicadas esta página no FB: 
+
    https://www.facebook.com/Nassaust-101122458817195
 
 ## download do app NassauSt: 
