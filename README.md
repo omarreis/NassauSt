@@ -6,8 +6,8 @@ Esse repositório contém arquivos e tutoriais de suporte ao app Nassau St.
 NassauSt é um app para acompanhamento do mercado financeiro e gestão de carteiras de ativos financeiros.
 O App está disponivel para Android, iOS e Windows.
 
-## Market Data
-O market data do Google Finance é usado para calcular o valor atual dos ativos em Nassau ST.
+## Market data ( cotações ) 
+As cotações o Google Finance são usadas para calcular o valor atual dos ativos em Nassau ST.
 Na maioria dos ativos há um delay de 15 min.
 
 A planilha abaixo contem a tabela de ativos:
@@ -18,10 +18,9 @@ A planilha abaixo contem a tabela de ativos:
 ##  Uso de cotações do Nassau em planilhas Excel ( via DDE )
 Nassau St (na versão para Windows, v2.1+ ) suporta atualização cotações via links DDE.
 
-DDE é um protocolo de intercâmbio de dados entre aplicativos no Windows. 
-Tradicionalmente é usado para alimentar planilhas Excel com cotações em tempo real.
-NassauSt permite acessar cotações dos mercados mundiais (As cotações são do Google Finance, a maioria com delay de 15 min).
-São disponiveis ações brasileiras, ETFs, FIIs, BDRs, ADRs na B3, além de alguns ativos da NYSE e NASDAQ, indices mundiais, moedas e cryptos ( aprox 1500 ativos financeiros ).
+DDE é um protocolo de intercâmbio de dados entre aplicativos no Windows. Tradicionalmente é usado para alimentar planilhas Excel com cotações em tempo real. 
+
+NassauSt permite acessar cotações dos mercados mundiais. São disponiveis ações brasileiras, ETFs, FIIs, BDRs, ADRs na B3, além de alguns ativos da NYSE e NASDAQ, indices mundiais, moedas e cryptos ( aprox 1500 ativos financeiros ).
 
 **Exemplo de uso do DDE:**
 1) No Windows abra simultaneamente os apps NassauSt e Excel.
