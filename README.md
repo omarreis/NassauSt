@@ -31,7 +31,7 @@ NassauSt permite acessar cotações dos mercados mundiais. São disponiveis aç�
 
 Como Nassau atualiza as cotações a cada 5 min, as cotações na planilha são atualizadas com a mesma frequencia.
 
-A planilha Excel de exemplo ilustra como estabelecer os link para atualização automática.
+A planilha Excel de exemplo ilustra como estabelecer o link para atualização automática da planilha.
 
 ## Servidor DDE Nassau
 Nassau permite dois tipos de links DDE ( tópicos ): valores individuais e range de valores.
