@@ -33,10 +33,10 @@ Como Nassau atualiza as cotações a cada 5 min, as cotações na planilha são 
 
 A planilha Excel de exemplo ilustra como estabelecer o link para atualização automática da planilha.
 
-## Servidor DDE Nassau
+## Links de cotações
 Nassau permite dois tipos de links DDE ( tópicos ): valores individuais e range de valores.
 
-1) Valores individuais do papel (tópico **VAL** )
+1- Valores individuais do papel (tópico **VAL**)
  
 * fórmula:   **=nassau|val!ativo.tipo**
 * exemplos:  **=nassau|val!goog**    ou   **=nassau|val!IBOV.max**
@@ -46,11 +46,11 @@ Nassau permite dois tipos de links DDE ( tópicos ): valores individuais e range
    tipos em ingles: cod,price,high,low,priceopen,volume,changepct,marketcap,tradetime,pe,eps,low52,high52,closeyest,shares,name,type,curr,bolsa
    (as duas linguas podem ser usadas)
   
-2) Range de valores do ativo (tópico **ALL** )				
+2- Range de valores do ativo (tópico **ALL** )
 Retorna todos os campos do ativo em multiplas células horizontais (range )
    
-uso:  
-* Selecione um range de celulas horizontal com até 19 colunas.
+uso:
+* Selecione um range de celulas horizontal com até 19 colunas
 * Digite fórmula:  **=nassau|all!ativo**  (exemplo: **=nassau|all!petr4**)
 * pressione **Ctrl-Shift Enter**
 
