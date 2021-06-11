@@ -1,6 +1,6 @@
 # NassauSt
 
-Esse repositório contem arquivos e tutoriais de suporte ao app Nassau St.
+Esse repositório contém arquivos e tutoriais de suporte ao app Nassau St.
 
 ## Sobre NassauSt
 NassauSt é um app para acompanhamento do mercado financeiro e gestão de carteiras de ativos financeiros.
@@ -8,12 +8,13 @@ O App está disponivel para Android, iOS e Windows.
 * NassauSt usa market data do Google Docs (ou GoogleFinance), a maioria com delay de 15 min.
 
 ##  Uso de cotações do Nassau em planilhas Excel ( DDE )
-NassauSt (na versão para Windows, versao 2.1+ ) suporta atualização cotações via links DDE.
+Nassau St (na versão para Windows, v2.1+ ) suporta atualização cotações via links DDE.
 
-DDE é um protocolo de intercambio de dados entre aplicativos no Windows. Tradicionalmente é usado para alimentar planilhas Excel com cotações em tempo real.
-NassauSt permite acessar cotações dos mercados mundiais, com ênfase Bovespa (As cotações são do Google Finance, a maioria om delay de 15 min).
-São disponiveis ações, ETFs, FIIs, BDRs, ADRs na B3, além de alguns ativos da NYSE e NASDAQ ( aprox 1500 ativos financeiros ).
+DDE é um protocolo de intercâmbio de dados entre aplicativos no Windows. Tradicionalmente é usado para alimentar planilhas Excel com cotações em tempo real.
+NassauSt permite acessar cotações dos mercados mundiais (As cotações são do Google Finance, a maioria com delay de 15 min).
+São disponiveis ações brasileiras, ETFs, FIIs, BDRs, ADRs na B3, além de alguns ativos da NYSE e NASDAQ, indices mundiais, moedas e cryptos ( aprox 1500 ativos financeiros ).
 
+**Exemplo de uso:**
 1) No Windows abra simultaneamente os apps NassauSt e Excel.
 2) Faça o download e abra a planilha de teste: 
       https://github.com/omarreis/NassauSt/blob/main/documentacaoNassauSt_DDESvr.xlsx
@@ -24,23 +25,23 @@ Como Nassau atualiza as cotações a cada 5 min, as cotações na planilha são 
 A planilha Excel de exemplo ilustra como estabelecer os link para atualização automática.
 
 ## Servidor DDE Nassau
-Nassau permite dois tipos de links DDE ( tópicos )
+Nassau permite dois tipos de links DDE ( tópicos ): valores individuais e range de valores.
 
 1) Valores individuais do papel ( **VAL** )  												
     
-   sintaxe:   =nassau|val!ativo[.tipo]      
-   exemplos:  =nassau|val!goog    ou   =nassau|val!IBOV.max   
+   fórmula:   **=nassau|val!ativo.tipo**      
+   exemplos:  **=nassau|val!goog**    ou   **=nassau|val!IBOV.max**   
    ( formula case insensitive - no caso de omitir o tipo, o ultimo preço é retornado ) 												
    
    tipos em portugues: cod,preco,max,min,abe,vol,var,marketcap,hora,pl,lpa,min52,max52,fech,numero,nome,tipo,moeda,bolsa									
-   tipos em ingles: cod,price,high,low,priceopen,volume,changepct,marketcap,tradetime,pe,eps,low52,high52,closeyest,shares,name,type,curr,bolsa						      (as duas linguas podem ser usadas)												
+   tipos em ingles: cod,price,high,low,priceopen,volume,changepct,marketcap,tradetime,pe,eps,low52,high52,closeyest,shares,name,type,curr,bolsa						            (as duas linguas podem ser usadas)												
    
-2) Trem de valores do ativo ( ALL ) 												
-    retorna todos os campos do ativo em lista separada por tabs												
-    sintaxe:  1) Selecione um range de celulas horizontal com até 19 colunas												
+2) Range de valores do ativo ( ALL ) 												
+   Retorna todos os campos do ativo em multiplas células horizontais (range )												
+    fórmula:  1) Selecione um range de celulas horizontal com até 19 colunas.												
               2) digite fórmula:  **=nassau|all!ativo**               
                  exemplo: **=nassau|all!petr4**
-              4) pressione **Ctrl-Shift Enter**
+              3) pressione **Ctrl-Shift Enter**
 
 
 ## Facebook
