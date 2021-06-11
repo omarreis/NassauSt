@@ -24,22 +24,23 @@ Como Nassau atualiza as cotações a cada 5 min, as cotações na planilha são 
 A planilha Excel de exemplo ilustra como estabelecer os link para atualização automática.
 
 ## Servidor DDE Nassau
+Nassau permite dois tipos de links DDE ( tópicos )
 
-1) Valores individuais do papel ( VAL )  												
+1) Valores individuais do papel ( **VAL** )  												
+    
    sintaxe:   =nassau|val!ativo[.tipo]      
    exemplos:  =nassau|val!goog    ou   =nassau|val!IBOV.max   
-   ( case insensitive - no caso de omitir o tipo, o ultimo preço é retornado ) 												
+   ( formula case insensitive - no caso de omitir o tipo, o ultimo preço é retornado ) 												
    
-   tipos em portugues:	cod,preco,max,min,abe,vol,var,marketcap,hora,pl,lpa,min52,max52,fech,numero,nome,tipo,moeda,bolsa									
-   tipos em ingles:	cod,price,high,low,priceopen,volume,changepct,marketcap,tradetime,pe,eps,low52,high52,closeyest,shares,name,type,curr,bolsa						      (as duas linguas podem ser usadas)												
+   tipos em portugues: cod,preco,max,min,abe,vol,var,marketcap,hora,pl,lpa,min52,max52,fech,numero,nome,tipo,moeda,bolsa									
+   tipos em ingles: cod,price,high,low,priceopen,volume,changepct,marketcap,tradetime,pe,eps,low52,high52,closeyest,shares,name,type,curr,bolsa						      (as duas linguas podem ser usadas)												
    
 2) Trem de valores do ativo ( ALL ) 												
-retorna todos os campos do ativo em lista separada por tabs												
-sintaxe:  1) Selecione um range de celulas horizontal com até 19 colunas												
-                 2) digite fórmula:         = nassau|all!ativo               ex:   = nassau|all!petr4												
-                 3) pressione Ctrl-Shift Enter												
-![image](https://user-images.githubusercontent.com/7995878/121686813-07d26200-ca98-11eb-837f-019a8fa12598.png)
-
+    retorna todos os campos do ativo em lista separada por tabs												
+    sintaxe:  1) Selecione um range de celulas horizontal com até 19 colunas												
+              2) digite fórmula:  **=nassau|all!ativo**               
+                 exemplo: **=nassau|all!petr4**
+              4) pressione **Ctrl-Shift Enter**
 
 
 ## Facebook
