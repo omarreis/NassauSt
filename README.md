@@ -10,7 +10,7 @@ O App está disponivel para Android, iOS e Windows.
 ##  Uso de cotações do Nassau em planilhas Excel ( DDE )
 NassauSt (na versão para Windows, versao 2.1+ ) suporta atualização cotações via links DDE.
 
-DDE é um protocolo de intercambio de dados enmtre aplicativos no Windows. Tradicionalmente é usado para alimentar planilhas Excel com cotações em tempo real.
+DDE é um protocolo de intercambio de dados entre aplicativos no Windows. Tradicionalmente é usado para alimentar planilhas Excel com cotações em tempo real.
 NassauSt permite acessar cotações dos mercados mundiais, com ênfase Bovespa (As cotações são do Google Finance, a maioria om delay de 15 min).
 São disponiveis ações, ETFs, FIIs, BDRs, ADRs na B3, além de alguns ativos da NYSE e NASDAQ ( aprox 1500 ativos financeiros ).
 
