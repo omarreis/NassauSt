@@ -38,22 +38,21 @@ Nassau permite dois tipos de links DDE ( tópicos ): valores individuais e range
 
 1) Valores individuais do papel (tópico **VAL** )
  
-   fórmula:   **=nassau|val!ativo.tipo**
-   exemplos:  **=nassau|val!goog**    ou   **=nassau|val!IBOV.max**
-   (formula case insensitive - no caso de omitir o tipo, o ultimo preço é retornado)			
+* fórmula:   **=nassau|val!ativo.tipo**
+* exemplos:  **=nassau|val!goog**    ou   **=nassau|val!IBOV.max**
+ (formula case insensitive - no caso de omitir o tipo, o ultimo preço é retornado)			
    
    tipos em portugues: cod,preco,max,min,abe,vol,var,marketcap,hora,pl,lpa,min52,max52,fech,numero,nome,tipo,moeda,bolsa
    tipos em ingles: cod,price,high,low,priceopen,volume,changepct,marketcap,tradetime,pe,eps,low52,high52,closeyest,shares,name,type,curr,bolsa
    (as duas linguas podem ser usadas)
   
 2) Range de valores do ativo (tópico **ALL** )				
- 
-   Retorna todos os campos do ativo em multiplas células horizontais (range )
+Retorna todos os campos do ativo em multiplas células horizontais (range )
    
-   uso:  1) Selecione um range de celulas horizontal com até 19 colunas.
-         2) digite fórmula:  **=nassau|all!ativo**
-            exemplo: **=nassau|all!petr4**
-         3) pressione **Ctrl-Shift Enter**
+uso:  
+* Selecione um range de celulas horizontal com até 19 colunas.
+* Digite fórmula:  **=nassau|all!ativo**  (exemplo: **=nassau|all!petr4**)
+* pressione **Ctrl-Shift Enter**
 
 ![image](https://user-images.githubusercontent.com/7995878/121692954-048ea480-ca9f-11eb-886c-27b7791116a9.png)
 
