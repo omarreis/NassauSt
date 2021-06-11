@@ -5,13 +5,15 @@ Esse repositório contém arquivos e tutoriais de suporte ao app Nassau St.
 ## Sobre NassauSt
 NassauSt é um app para acompanhamento do mercado financeiro e gestão de carteiras de ativos financeiros.
 O App está disponivel para Android, iOS e Windows.
-* NassauSt usa market data do Google Docs (ou GoogleFinance), a maioria com delay de 15 min.
 
 ## Market Data
-O market data do Google Finance é usado para calcular o valor atual dos ativos de Nassau ST.
+O market data do Google Finance é usado para calcular o valor atual dos ativos em Nassau ST.
+Na maioria dos ativos há um delay de 15 min.
 
 A planilha abaixo contem a tabela de ativos:
-https://docs.google.com/spreadsheets/d/1rP386BJCjW2MDa9PzYYP5OPzgeO61lG-Vo_EM8GDHho/edit?usp=sharing
+
+    https://docs.google.com/spreadsheets/d/1rP386BJCjW2MDa9PzYYP5OPzgeO61lG-Vo_EM8GDHho/edit?usp=sharing
+    
 
 ##  Uso de cotações do Nassau em planilhas Excel ( DDE )
 Nassau St (na versão para Windows, v2.1+ ) suporta atualização cotações via links DDE.
