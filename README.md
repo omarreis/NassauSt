@@ -44,8 +44,8 @@ Nassau permite dois tipos de links DDE ( tópicos ): valores individuais e range
 
 A formula é case insensitive. 
    
-* tipos em portugues: cod,preco,max,min,abe,vol,var,marketcap,hora,pl,lpa,min52,max52,fech,numero,nome,tipo,moeda,bolsa.
-* tipos em ingles: cod,price,high,low,priceopen,volume,changepct,marketcap,tradetime,pe,eps,low52,high52,closeyest,shares,name,type,curr,bolsa.
+* tipos em portugues: cod preco max min abe vol var marketcap hora pl lpa min52 max52 fech numero nome tipo moeda bolsa.
+* tipos em ingles: cod price high low priceopen volume changepct marketcap tradetime pe eps low52 high52 closeyest shares name type curr bolsa.
 As duas linguas podem ser usadas.
 
 No caso de omitir o tipo o ultimo preço é retornado.			
