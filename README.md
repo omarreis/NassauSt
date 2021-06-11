@@ -7,10 +7,10 @@ NassauSt é um app para acompanhamento do mercado financeiro e gestão de cartei
 O App está disponivel para Android, iOS e Windows.
 
 ## Market data ( cotações ) 
-As cotações o Google Finance são usadas para calcular o valor atual dos ativos em Nassau ST.
-Na maioria dos ativos há um delay de 15 min.
+As cotações do Google Finance, através do GoogleSheets, são usadas para calculo do valor atual dos ativos nas carteiras de Nassau.
+Este serviço é grátis, porém na maioria dos ativos há um delay de 15 min.
 
-A planilha abaixo contem a tabela de ativos:
+A planilha abaixo contém a tabela de ativos "oficial":
 
     https://docs.google.com/spreadsheets/d/1rP386BJCjW2MDa9PzYYP5OPzgeO61lG-Vo_EM8GDHho/edit?usp=sharing
     
@@ -23,6 +23,7 @@ DDE é um protocolo de intercâmbio de dados entre aplicativos no Windows. Tradi
 NassauSt permite acessar cotações dos mercados mundiais. São disponiveis ações brasileiras, ETFs, FIIs, BDRs, ADRs na B3, além de alguns ativos da NYSE e NASDAQ, indices mundiais, moedas e cryptos ( aprox 1500 ativos financeiros ).
 
 **Exemplo de uso do DDE:**
+
 1) No Windows abra simultaneamente os apps NassauSt e Excel.
 2) Faça o download e abra a planilha de teste: 
       https://github.com/omarreis/NassauSt/blob/main/documentacaoNassauSt_DDESvr.xlsx
@@ -36,6 +37,7 @@ A planilha Excel de exemplo ilustra como estabelecer os link para atualização 
 Nassau permite dois tipos de links DDE ( tópicos ): valores individuais e range de valores.
 
 1) Valores individuais do papel (tópico **VAL** )
+ 
    fórmula:   **=nassau|val!ativo.tipo**
    exemplos:  **=nassau|val!goog**    ou   **=nassau|val!IBOV.max**
    (formula case insensitive - no caso de omitir o tipo, o ultimo preço é retornado)			
@@ -45,11 +47,13 @@ Nassau permite dois tipos de links DDE ( tópicos ): valores individuais e range
    (as duas linguas podem ser usadas)
   
 2) Range de valores do ativo (tópico **ALL** )				
+ 
    Retorna todos os campos do ativo em multiplas células horizontais (range )
-    fórmula:  1) Selecione um range de celulas horizontal com até 19 colunas.
-              2) digite fórmula:  **=nassau|all!ativo**
-                 exemplo: **=nassau|all!petr4**
-              3) pressione **Ctrl-Shift Enter**
+   
+   uso:  1) Selecione um range de celulas horizontal com até 19 colunas.
+         2) digite fórmula:  **=nassau|all!ativo**
+            exemplo: **=nassau|all!petr4**
+         3) pressione **Ctrl-Shift Enter**
 
 ![image](https://user-images.githubusercontent.com/7995878/121692954-048ea480-ca9f-11eb-886c-27b7791116a9.png)
 
