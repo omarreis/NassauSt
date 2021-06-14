@@ -64,6 +64,55 @@ uso:
 
 ![image](https://user-images.githubusercontent.com/7995878/121692954-048ea480-ca9f-11eb-886c-27b7791116a9.png)
 
+## Posições em Carteira
+
+Para cada conta é mantida uma lista de posições em carteira e inclui estátisticas de rentabilidade da posição:
+* Codigo e especificação do papel
+* Quantidade possuida
+* Preço médio de aquiosição
+* Valor de aquisição ( inclui despesas )
+* Participação na carteira
+* Cotação atual
+* Valor atual
+* Variação percentual
+* Lucro/prejuízo da posição
+* Prazo médio da posição
+* Taxa de retorno anualizada 
+
+![image](https://user-images.githubusercontent.com/7995878/121906058-212a1700-cd01-11eb-9f79-58170250a64b.png)
+
+## Banco de dados em texto
+
+Nassau ST utiliza banco de dados em formato texto. Isso permite interagir com outros programas ( ex planilhas ). O formato do banco de dados de operações é auto-explicativo, conforme exemplificado abaixo.
+
+**Conta:** Nome; Instituicao; NumDaConta; AporteInicial; NumDeCotas
+
+    c;Jose Carlos;AçõesDoZeca;001-1;300000;300000
+
+**Nota:** data; TotalCompras; TotalVendas; Despesas; IRRF
+
+    n;08/01/2020;272400;0;50;0
+
+**Execuções:** data/hora; C/V; Papel; Qde; Valor; Preço médio
+
+    e;08/01/2020 00:00;C;WEGE3;2000;76000;38
+    
+Uma nota completa fica:
+
+    n;24/03/2020;0;61000;20;5
+    e;24/03/2020 00:00;V;WEGE3;1000;36000;36
+    e;24/03/2020 00:00;V;HGLG11;100;12000;120
+    e;24/03/2020 00:00;V;PETR4;1000;13000;13
+    
+Nassau ST permite copiar ou colar nota(s) completas, para interação com outros sistemas ( usando o clipboard do dispositivo ). 
+
+Para inserir operações no app, na página de portfolio:
+
+* Clique Menu. 
+* Com as operações já no clipboard, aperte **Cola objetos**. Note que as operações são inseridas na conta selecionada no momento. Certifique-se de selecionar a conta correta.
+
+Se o banco de dados estiver em texto não encriptado, voce pode selecionar e copiar operações, ou mesmo contas completas. 
+
 ## Facebook
 Novidades e dicas do app são publicadas nesta página no FB: 
 
