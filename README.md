@@ -106,19 +106,25 @@ Uma nota completa fica:
     
 Nassau ST permite copiar ou colar nota(s) completas, para interação com outros sistemas ( usando o clipboard do dispositivo ). 
 
+Na formatação em texto: 1) usar '.' como separador decimal  2) Não usar separador de milhar (Numeros reais devem ter o formato '1234.56') 
+
 Para inserir operações no app, na página de portfolio:
 
-* Clique Menu. 
-* Com as operações já no clipboard, aperte **Cola objetos**. Note que as operações são inseridas na conta selecionada no momento. Certifique-se de selecionar a conta correta.
+* Clique **Menu** 
+* Com as operações já no clipboard do dispositivo, aperte **Cola objetos**. Note que as operações são inseridas na conta selecionada no momento. Certifique-se de selecionar a conta correta antes de colar.
 
-Se o banco de dados estiver em texto não encriptado, voce pode selecionar e copiar operações, ou mesmo contas completas. 
+Para copiar dados do programa, se o banco de dados estiver em texto não encriptado, no portfolio, clique o botão DB, selecione o texto desejado e clique copy ( Ctrl-C no Windows ).
 
 ## Facebook
 Novidades e dicas do app são publicadas nesta página no FB: 
 
    https://www.facebook.com/Nassaust-101122458817195
+   
+## Github
 
-## download do app NassauSt: 
+   https://github.com/omarreis/NassauSt
+
+## download ou update do app NassauSt: 
 
 versão atual: 2.1.2 jun/21
 
