@@ -6,6 +6,9 @@ Esse repositório contém arquivos e tutoriais de suporte ao app **Nassau St**.
 NassauSt é um app para acompanhamento do mercado financeiro e gestão de carteiras de ativos financeiros.
 Está disponivel para **Android iOS e Windows**.
 
+## Homepage
+* https://www.tecepe.com.br/nassau
+
 ## Market data ( cotações ) 
 As cotações do **Google Finance**, através do GoogleSheets, são usadas em cálculos nas carteiras de Nassau St.
 Este serviço do Google é grátis, porém na maioria dos ativos há um **delay de 15 min**. 
@@ -116,11 +119,14 @@ Para inserir operações no app, na página de portfolio:
 Para copiar dados do programa, se o banco de dados estiver em texto não encriptado, no portfolio, clique o botão DB, selecione o texto desejado e clique copy ( Ctrl-C no Windows ).
 
 ## Facebook
+
 Novidades e dicas do app são publicadas nesta página no FB: 
 
    https://www.facebook.com/Nassaust-101122458817195
    
 ## Github
+
+Repositório com dicas, planilhas de teste e outros arquivos de suporte ao app.
 
    https://github.com/omarreis/NassauSt
 
@@ -132,7 +138,5 @@ versão atual: 2.1.2 jun/21
 * para iOS:     https://apps.apple.com/us/app/nassau-st/id1093819633
 * para Android: https://play.google.com/store/apps/details?id=com.embarcadero.Nassau 
 
-## Site web
-* https://www.tecepe.com.br/nassau
 
 
