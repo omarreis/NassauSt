@@ -119,7 +119,8 @@ Nassau ST permite copiar ou colar uma lista de objetos, para permitir interaçã
 Na formatação em texto, observar: 
   1) Usar '.' como separador decimal  
   2) Não usar separador de milhar (Numeros reais devem ter o formato '1234.56') 
-  3) Data no formato 'dd/mm/aaaa'
+  3) Data no formato 'dd/mm/aaaa hh:mm'
+  4) Códigos em letras maiúsculas
 
 Para inserir objetos no app, na página de portfolio:
 
@@ -136,7 +137,7 @@ Novidades e dicas do app são publicadas nesta página no FB:
    
 ## Github
 
-Repositório com dicas, planilhas de teste e outros arquivos de suporte ao app.
+Esse repositório com dicas, planilhas de exemploe outros arquivos de suporte ao app.
 
    https://github.com/omarreis/NassauSt
 
