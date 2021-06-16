@@ -86,18 +86,23 @@ Para cada conta é mantida uma lista de posições em carteira e inclui estátis
 
 ## Banco de dados em texto
 
-Nassau ST utiliza banco de dados em formato texto. Isso permite interagir com outros programas ( ex planilhas ). O formato do banco de dados de operações é auto-explicativo, conforme exemplificado abaixo.
+Nassau ST utiliza banco de dados em formato texto. Isso permite interagir com outros programas ( ex planilhas ). 
+O formato do banco de dados de operações é texto separado por ';'.
+Cada linha contem um objeto que pode ser tipo conta, cabeçalho de nota, execução em bolsa ou lançamento (saque-deposito)
 
-**Conta:** Nome; Instituicao; NumDaConta; AporteInicial; NumDeCotas
-
+**Conta:** 
+    formato: **c;Nome;Instituicao;NumDaConta;AporteInicial;NumDeCotas**
+    
     c;Jose Carlos;AçõesDoZeca;001-1;300000;300000
 
-**Nota:** data; TotalCompras; TotalVendas; Despesas; IRRF
+**Nota:** 
+    formato: **n;data;TotalCompras;TotalVendas;Despesas;IRRF**
 
     n;08/01/2020;272400;0;50;0
 
-**Execuções:** data/hora; C/V; Papel; Qde; Valor; Preço médio
-
+**Execuções:** 
+  formato: **e;data/hora;C/V;Papel;Qde;Valor;PreçoMédio**
+    
     e;08/01/2020 00:00;C;WEGE3;2000;76000;38
     
 Uma nota completa fica:
@@ -107,16 +112,21 @@ Uma nota completa fica:
     e;24/03/2020 00:00;V;HGLG11;100;12000;120
     e;24/03/2020 00:00;V;PETR4;1000;13000;13
     
-Nassau ST permite copiar ou colar nota(s) completas, para interação com outros sistemas ( usando o clipboard do dispositivo ). 
+Nassau ST permite copiar ou colar uma lista de objetos, para permitir interação com outros sistemas (p.e. Excel) usando o clipboard do dispositivo. 
 
-Na formatação em texto: 1) usar '.' como separador decimal  2) Não usar separador de milhar (Numeros reais devem ter o formato '1234.56') 
+                Nassau St   <------------> Planilhas Excel, e-mail, 
+               
+Na formatação em texto, observar: 
+  1) Usar '.' como separador decimal  
+  2) Não usar separador de milhar (Numeros reais devem ter o formato '1234.56') 
+  3) Data no formato 'dd/mm/aaaa'
 
-Para inserir operações no app, na página de portfolio:
+Para inserir objetos no app, na página de portfolio:
 
-* Clique **Menu** 
-* Com as operações já no clipboard do dispositivo, aperte **Cola objetos**. Note que as operações são inseridas na conta selecionada no momento. Certifique-se de selecionar a conta correta antes de colar.
+1) Clique **Menu** 
+2) Com as operações já no clipboard do dispositivo, aperte **Cola objetos**. Note que as operações são inseridas na conta selecionada no momento. Certifique-se de selecionar a conta correta antes de colar.
 
-Para copiar dados do programa, se o banco de dados estiver em texto não encriptado, no portfolio, clique o botão DB, selecione o texto desejado e clique copy ( Ctrl-C no Windows ).
+Para copiar dados do programa, se o banco de dados estiver em texto não encriptado, na página do portfolio, clique o botão DB, selecione o texto desejado e clique **Copy** ( **Ctrl-C** no Windows ).
 
 ## Facebook
 
