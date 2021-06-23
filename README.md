@@ -6,6 +6,11 @@ Esse repositório contém arquivos e tutoriais de suporte ao app **Nassau St**.
 NassauSt é um app para acompanhamento do mercado financeiro e gestão de carteiras de ativos financeiros.
 Está disponivel para **Android iOS e Windows**.
 
+Neste texto é proposto um sistema de controle de ativos que consiste em:
+
+* planilha Excel 
+* App Nassau
+
 ## Homepage
 * https://www.tecepe.com.br/nassau
 
