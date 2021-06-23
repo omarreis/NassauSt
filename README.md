@@ -39,7 +39,7 @@ O sistema de controle proposto aqui consiste em planilha Excel e o app Nassau ST
 A planilha de exemplo abaixo faz controle básico de uma carteira de ativos financeiros.
 Copie, remova os dados de exemplo e insira seus próprios dados ( investimento e notas de corretagem ).
 
-    https://github.com/omarreis/NassauSt/blob/main/movimentoBolsaGenerico.xlsx
+* Download da planilha:  https://github.com/omarreis/NassauSt/blob/main/movimentoBolsaGenerico.xlsx
 
 ## Controle
 
