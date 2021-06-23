@@ -65,9 +65,9 @@ Além disso, cada nota contém uma ou mais operações. Cada operação tem os s
 
 ## Uso da planilha
 
-A planilha de controle contem 3 páginas:
+A planilha de controle contem 3 páginas (tabs):
 
-* **Notas** - Use para incluir suas notas de corretagem, além dos dados dá carteira.
+* **Notas** - Use para incluir suas notas de corretagem, além dos dados da carteira.
 * **Carteira** - Posições atuais da carteira. Calculo de estatísticas agregadas. Usa market data o app.
 * **Nassau ST** - Transferencia de dados para o app, via copy-paste
 
