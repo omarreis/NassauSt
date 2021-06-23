@@ -80,6 +80,8 @@ dicas de uso da planilha ( p/ Windows):
 * Digite nas células com fundo colorido (as células brancas contém fórmulas).
 * A planilha não tem células bloqueadas. Use com cuidado até entende-la.
 
+![image](shotPlanilhaControleNotas.png) ![image](shotPlanilhaControleCarteira.png)
+
 ##  Uso de cotações do Nassau em planilhas Excel ( via DDE )
 Nassau St (na versão para Windows, v2.1+ ) suporta atualização de cotações via links DDE ( tecnicamente o app é um servidor dde ).
 
