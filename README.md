@@ -33,32 +33,33 @@ Muitos investidores usam os sistemas providos pelas corretoras para controle de 
 Alguns sistemas são bons, oferecendo várias ferramentas. 
 Mas ficam sempre a desejar nos quesitos flexibilidade e interação com outros sistemas.
 Além disso, ter um controle próprio das operações permite checar os cálculos da corretora.
-Facilita muito integrar dados de várias instituições ( como na declaração de IR )
+E facilita muito integrar dados de várias instituições ( como na declaração de IR )
 
-O sistema de controle proposto aqui consiste em planilha Excel e o app Nassau ST ( em PCs Windows e celulares).
-A planilha de exemplo abaixo faz controle básico de uma carteira de ativos financeiros.
-Copie, remova os dados de exemplo e insira seus próprios dados ( investimento e notas de corretagem ).
+O sistema de controle proposto aqui consiste em **planilha Excel** e o app **Nassau ST** ( em PCs Windows e celulares).
+A planilha de exemplo abaixo faz o controle básico de uma carteira de ativos financeiros.
+Copie, limpe os dados de exemplo e insira seus próprios dados ( investimento e notas de corretagem ).
 
 * Download da planilha:  https://github.com/omarreis/NassauSt/blob/main/movimentoBolsaGenerico.xlsx
 
 ## Controle
 
 O controle de uma carteira de ativos financeiros começa com um **capital inicial** e o correspondente **numero de quotas**.
-Esse capital vai ser investido em ativos ( ações, fundos imobiliários, ETFs, BDRs ). 
+Esse é o capital que vai ser investido em ativos ( ações, fundos imobiliários, ETFs, BDRs ). 
 
-A planilha de controle é alimentada com as **Notas de Corretagem** das operações na bolsa, emitidas pela sua corretora.
-A nota contem alguns campos:
+A planilha de controle é alimentada com **Notas de Corretagem** das operações na bolsa, emitidas pela sua corretora.
+A nota contém alguns campos:
 
-* data da nota
-* despesas ( emolumentos+corretagem+taxas+impostos exceto IRRF )
+* Data da nota
+* Despesas ( emolumentos+corretagem+taxas+impostos exceto IRRF )
 * IRRF ( imposto dedo-duro )
 * Total de compras
 * Total de vendas
 
 Além disso, cada nota contém uma ou mais operações. Cada operação tem os seguintes dados:
 
+* Data da operação
 * Código do ativo ( ex: **PETR4** )
-* Op ( **C** ou **V**)
+* Tipo de Operação ( **C** ou **V**)
 * Quantidade negociada
 * Preço médio
 * Valor
@@ -77,10 +78,13 @@ dicas de uso da planilha ( p/ Windows):
 * Habilite os links DDE para ter cotações do app na planilha (valor atual).
 * Leia as dicas de uso e os comentários na planilha. 
 * Use '.' como separador decimal.
+* Use letras maiúsculas no tipo de operação ( "C" ou "V") e nos códigos de ativos.
 * Digite nas células com fundo colorido (as células brancas contém fórmulas).
 * A planilha não tem células bloqueadas. Use com cuidado até entende-la.
 
-![image](shotPlanilhaControleNotas.png) ![image](shotPlanilhaControleCarteira.png)
+![image](shotPlanilhaControleNotas.png)
+
+![image](shotPlanilhaControleCarteira.png)
 
 ##  Uso de cotações do Nassau em planilhas Excel ( via DDE )
 Nassau St (na versão para Windows, v2.1+ ) suporta atualização de cotações via links DDE ( tecnicamente o app é um servidor dde ).
