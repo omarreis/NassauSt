@@ -22,6 +22,42 @@ A planilha abaixo contém a tabela de ativos "oficial" de Nassau St:
 
     https://policies.google.com/terms?hl=pt-BR
     
+## Como controlar uma carteira de ativos financeiros ? 
+
+Muitos investidores usam os sistemas providos pelas corretoras para controle de suas carteiras.
+Alguns sistemas são bons, oferecendo várias ferramentas. 
+Mas ficam sempre a desejar nos quesitos flexibilidade e interação com outros sistemas.
+Além disso, ter um controle próprio das operações permite checar os cálculos da corretora.
+Facilita muito integrar dados de várias instituições ( como na declaração de IR )
+
+O sistema de controle proposto aqui consiste em planilha Excel e o app Nassau ST ( em PCs Windows e celulares).
+A planilha de exemplo abaixo faz controle básico de uma carteira de ativos financeiros.
+Copie, remova os dados de exemplo e insira seus próprios dados ( investimento e notas de corretagem ).
+
+    https://github.com/omarreis/NassauSt/blob/main/movimentoBolsaGenerico.xlsx
+
+## Controle
+
+O controle de uma carteira de ativos financeiros começa com um **capital inicial** e o correspondente **numero de quotas**.
+Esse capital vai ser investido em ativos ( ações, fundos imobiliários, ETFs, BDRs ). 
+
+A planilha de controle é alimentada com as **Notas de Corretagem** das operações na bolsa, emitidas pela sua corretora.
+A nota contem alguns campos:
+
+* data da nota
+* despesas ( emolumentos+corretagem+taxas+impostos exceto IRRF )
+* IRRF ( imposto dedo-duro )
+* Total de compras
+* Total de vendas
+
+Além disso, cada nota contém uma ou mais operações. Cada operação tem os seguintes dados:
+
+* Código do ativo ( ex: **PETR4** )
+* Op ( **C** ou **V**)
+* Quantidade negociada
+* Preço médio
+* Valor
+
 ##  Uso de cotações do Nassau em planilhas Excel ( via DDE )
 Nassau St (na versão para Windows, v2.1+ ) suporta atualização de cotações via links DDE ( tecnicamente o app é um servidor dde ).
 
