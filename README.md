@@ -68,10 +68,10 @@ Além disso, cada nota contém uma ou mais operações. Cada operação tem os s
 A planilha de controle contem 3 páginas (tabs):
 
 * **Notas** - Use para incluir suas notas de corretagem, além dos dados da carteira.
-* **Carteira** - Posições atuais da carteira. Calculo de estatísticas agregadas. Usa market data o app.
-* **Nassau ST** - Transferencia de dados para o app, via copy-paste
+* **Carteira** - Posições atuais da carteira. Calculo de estatísticas agregadas. Usa cotações do app Nassau ST.
+* * **Nassau ST** - Transferencia de dados para o app, via copy-paste
 
-Abra o app Nassau ST junto com o Excel e habilite os links para ter cotações do Nassau ST na planilha.
+Abra o app Nassau ST e depois a planilha Excel. Habilite os links para ter cotações do app na planilha ( valor atual).
 
 ##  Uso de cotações do Nassau em planilhas Excel ( via DDE )
 Nassau St (na versão para Windows, v2.1+ ) suporta atualização de cotações via links DDE ( tecnicamente o app é um servidor dde ).
