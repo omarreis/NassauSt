@@ -80,6 +80,7 @@ dicas de uso da planilha ( p/ Windows):
 * Use '.' como separador decimal.
 * Use letras maiúsculas no tipo de operação ( "C" ou "V") e nos códigos de ativos.
 * Digite nas células com fundo colorido (as células brancas contém fórmulas).
+* Nas células de **cotação atual** utilize link DDE (ver mais abaixo)
 * A planilha não tem células bloqueadas. Use com cuidado até entende-la.
 
 ![image](shotPlanilhaControleNotas.png)
