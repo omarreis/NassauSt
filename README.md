@@ -228,18 +228,20 @@ versão atual: 2.5.2 - released mar/22
 
 Nassau permite criar fórmulas com atualização automática. As formulas podem ser associadas a um código de ativo, de modo que podem aparecer na pagina de cotação ou em outras fórmulas. Permite fazer conversão de moeda, soma de ativos, arbitragens etc. Exemplos de formulas:
 
-* 10*APPL+5*GOOG+5*FB     ( carteira simples dde ações )
+* 10 * APPL+5 * GOOG+5 * FB     ( carteira simples dde ações )
 * BTCBRL/BTCUSD           ( retorna o dólar usado no câmbio de bitcoin ) 
 * NVDA*USDBRL/NVDC34/50   ( arbitragem entre stock e BDR ) 
 * EURUSD*USDBRL           ( valor do EUR em R$ ) 
  
 Além disso voce pode usar funções pre-definidas, semelhantes às de planilhas (precedidas de @):
-* datas tipo "31/12/2000"
-* @sqrt() , 
-* @hora em numero real
+* datas no formato "31/12/2000"
+* @sqrt()  - raiz quadrada
+* PETR4/USDBRL -    petr em dolar 
+* @hora em numero real ( em horas )
 * @minuto  -  minutos desde meia noite
 * @Trunc() e @Frac()
 * @if(1>2,1,2)  - condicional
+* 1.41421359^2   - potência
 
 
 
