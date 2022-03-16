@@ -84,13 +84,15 @@ A planilha the controle de exemplo, disponivel para download neste repositório 
 
 dicas de uso da planilha ( p/ Windows):
 
-* Abra o app Nassau ST e depois a planilha Excel. 
-* Habilite os links DDE para ter cotações do app na planilha (valor atual).
+* Abra o app Nassau ST e depois a planilha Excel.  
+* Habilite os links DDE para ter as cotações do Nassau a planilha ( ex: valor atual ).
 * Leia as dicas de uso e os comentários na planilha. 
-* Use '.' como separador decimal.
-* Use letras maiúsculas no tipo de operação ( "C" ou "V") e nos códigos de ativos.
+* Use '.' como separador decimal.   
+* Use letras maiúsculas no tipo de operação ( "C" ou "V") e nos CÓDIGOS de ativos.
 * Digite nas células com fundo colorido (as células brancas contém fórmulas).
-* Nas células de **cotação atual** utilize link DDE (ver mais abaixo)
+* Nas células de **cotação atual** utilize um link DDE para obter a cotação atual cada ativo ( ver mais abaixo )
+* Ativos novos devem ter o código incluido na tabela da aba *Carteira* 
+* Na aba *Notas* insira as operações em Bolsa ( i.e. as notas de corretagem ) 
 * A planilha não tem células bloqueadas. Use com cuidado até entende-la.
 
 ![image](shotPlanilhaControleNotas.png)
