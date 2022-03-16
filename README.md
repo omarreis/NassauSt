@@ -215,11 +215,11 @@ Esse repositório com dicas, planilhas de exemploe outros arquivos de suporte ao
 
 ## download ou update do app NassauSt: 
 
-versão atual: 2.1.2 jun/21
+versão atual: 2.5.2 - released mar/22
 
-* para Windows: https://www.tecepe.com.br/nassau/download   
-* para iOS:     https://apps.apple.com/us/app/nassau-st/id1093819633
-* para Android: https://play.google.com/store/apps/details?id=com.embarcadero.Nassau 
+* para Windows: https://www.tecepe.com.br/nassau/download   ( requer registro básico de usuário )
+* para iOS:     https://apps.apple.com/us/app/nassau-st/id1093819633   - na AppStore
+* para Android: https://play.google.com/store/apps/details?id=com.embarcadero.Nassau  - no Google Play 
 
 ## Fórmulas
 
