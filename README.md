@@ -39,17 +39,21 @@ A planilha abaixo contém a tabela de ativos "oficial" de Nassau St:
 Muitos investidores usam os sistemas providos pelas corretoras para controle de suas carteiras.
 Alguns sistemas são bons, oferecendo várias ferramentas. 
 
-Mas ficam sempre a desejar nos quesitos flexibilidade e interação com outros sistemas.
+Mas ficam sempre a desejar nos quesitos flexibilidade e integração com outros sistemas.
 Além disso, ter um controle próprio das operações permite checar os cálculos da corretora.
 E facilita muito integrar dados de várias instituições ( como na declaração de IR )
 
-O sistema de controle proposto aqui consiste em **planilha Excel** e o app **Nassau ST** ( em PCs Windows e celulares).
-A planilha de exemplo abaixo faz o controle básico de uma carteira de ativos financeiros.
-Copie, limpe os dados de exemplo e insira seus próprios dados ( investimento e notas de corretagem ).
+O sistema de controle proposto aqui consiste em uma planilha **Excel** e o app **Nassau** ( em PCs Windows e celulares).
+Note que há redundância no controle das posições em carteira: Um controle no Excel e um controle no app Nassau.
+De fato é uma redundância tripla, se contarmos o sistema da Corretora.
 
-* Download da planilha:  https://github.com/omarreis/NassauSt/blob/main/movimentoBolsaGenerico.xlsx
+A planilha de exemplo faz o controle básico de uma carteira de ativos financeiros.
+Limpe os dados de exemplo e insira seus próprios dados ( investimento e as notas de corretagem ).
+As notas de corretagem vem do sistema da Corretora ( por email ou via web )
 
-## Controle
+* Download da planilha de controle de ativos: https://github.com/omarreis/NassauSt/blob/main/movimentoBolsaGenerico.xlsx
+
+## Controle da carteira
 
 O controle de uma carteira de ativos financeiros começa com um **capital inicial** e o correspondente um certo **numero de quotas**.
 Esse é o capital que vai ser investido em ativos ( ações, fundos imobiliários, ETFs, BDRs ). 
@@ -99,8 +103,8 @@ dicas de uso da planilha ( p/ Windows):
 
 ![image](shotPlanilhaControleCarteira.png)
 
-##  Uso de cotações do Nassau em planilhas Excel ( via DDE )
-Nassau St (na versão para Windows, v2.1+ ) suporta atualização de cotações via links DDE ( tecnicamente o app é um servidor dde ).
+##  Uso de cotações Em planilhas Excel ( via DDE )
+Nassau St (na versão para Windows, v2.1+ ) suporta atualização de cotações via link DDE ( tecnicamente o app Nassau é um servidor dde ).
 
 DDE é um protocolo de intercâmbio de dados entre aplicativos no Windows. Tradicionalmente é usado para alimentar planilhas Excel com cotações em tempo real. 
 
