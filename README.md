@@ -223,20 +223,22 @@ versão atual: 2.1.2 jun/21
 
 ## Fórmulas
 
-Nassau permite criar fórmulas com atualização automática. As formulas podem ter codigo de ativo, de modo que podem aparecer na pagina de cotação ou em outras fórmulas. Permite fazer conversão de moeda, soma de ativos, arbitragens etc. Exemplos de formulas:
+Nassau permite criar fórmulas com atualização automática. As formulas podem ser associadas a um código de ativo, de modo que podem aparecer na pagina de cotação ou em outras fórmulas. Permite fazer conversão de moeda, soma de ativos, arbitragens etc. Exemplos de formulas:
 
- 10*APPL+5*GOOG+5*FB   ( carteira simples dde ações )
-* BTCBRL/BTCUSD      ( retorna o dólar usado na conversão )
-* NVDA*USDBRL/NVDC34/50       ( arbitragem entre stock e BDR ) 
-* EURUSD*USDBRL         ( valor do EUR em R$ ) 
+* 10*APPL+5*GOOG+5*FB     ( carteira simples dde ações )
+* BTCBRL/BTCUSD           ( retorna o dólar usado no câmbio de bitcoin ) 
+* NVDA*USDBRL/NVDC34/50   ( arbitragem entre stock e BDR ) 
+* EURUSD*USDBRL           ( valor do EUR em R$ ) 
  
-Além disso voce pode usar funções pre-definidas (precedidas de @):
+Além disso voce pode usar funções pre-definidas, semelhantes às de planilhas (precedidas de @):
 * datas tipo "31/12/2000"
 * @sqrt() , 
-* @hora
-* @minuto
-* @Trunc()
-* @if(1>2,1,2)
+* @hora em numero real
+* @minuto  -  minutos desde meia noite
+* @Trunc() e @Frac()
+* @if(1>2,1,2)  - condicional
+
+
 
 
 
