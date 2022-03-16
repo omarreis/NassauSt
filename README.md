@@ -4,7 +4,7 @@ Esse repositório contém arquivos e tutoriais de suporte ao app **Nassau St**.
 
 ## Sobre NassauSt
 NassauSt é um app para acompanhamento do mercado financeiro e gestão de carteiras de ativos financeiros.
-Está disponivel para **Android iOS e Windows**.
+Multi-plataforma disponivel para **Android iOS e Windows**.
 
 ## Versão atual do app: 2.5.2 - mar-22 para Windows, Android e iOS.
 
@@ -14,7 +14,7 @@ Neste texto é proposto um sistema de controle de ativos que consiste em:
 * App Nassau
 
 ## Homepage
-* https://www.tecepe.com.br/nassau
+* https://www.tecepe.com.br/nassau - links para downloads.
 
 ## Market data ( cotações ) 
 As cotações do **Google Finance**, através do GoogleSheets, são usadas em cálculos nas carteiras de Nassau St.
@@ -38,6 +38,7 @@ A planilha abaixo contém a tabela de ativos "oficial" de Nassau St:
 
 Muitos investidores usam os sistemas providos pelas corretoras para controle de suas carteiras.
 Alguns sistemas são bons, oferecendo várias ferramentas. 
+
 Mas ficam sempre a desejar nos quesitos flexibilidade e interação com outros sistemas.
 Além disso, ter um controle próprio das operações permite checar os cálculos da corretora.
 E facilita muito integrar dados de várias instituições ( como na declaração de IR )
@@ -50,15 +51,15 @@ Copie, limpe os dados de exemplo e insira seus próprios dados ( investimento e 
 
 ## Controle
 
-O controle de uma carteira de ativos financeiros começa com um **capital inicial** e o correspondente **numero de quotas**.
+O controle de uma carteira de ativos financeiros começa com um **capital inicial** e o correspondente um certo **numero de quotas**.
 Esse é o capital que vai ser investido em ativos ( ações, fundos imobiliários, ETFs, BDRs ). 
 
-A planilha de controle é alimentada com **Notas de Corretagem** das operações na bolsa, emitidas pela sua corretora.
-A nota contém alguns campos:
+A planilha de controle é alimentada com **Notas de Corretagem** das operações na bolsa, emitidas pela corretora.
+A nota contém alguns campos importantes:
 
-* Data da nota
+* Data da nota - uma nota por dia de negociação
 * Despesas ( emolumentos+corretagem+taxas+impostos exceto IRRF )
-* IRRF ( imposto dedo-duro )
+* IRRF ( imposto retido na fonte. a.k.a. dedo-duro )
 * Total de compras
 * Total de vendas
 
@@ -69,15 +70,17 @@ Além disso, cada nota contém uma ou mais operações. Cada operação tem os s
 * Tipo de Operação ( **C** ou **V**)
 * Quantidade negociada
 * Preço médio
-* Valor
+* Valor da op
+ 
+## Uso da planilha Excel
 
-## Uso da planilha
+Nassau foi desenvolvido de olho na interação com planilhas Microsoft Excel.
+Cada administrador de ativos financeiros tem o seu conjunto de planilhas.
+A planilha the controle de exemplo, disponivel para download neste repositório contem 3 páginas (tabs):
 
-A planilha de controle contem 3 páginas (tabs):
-
-* **Notas** - Use para incluir suas notas de corretagem, além dos dados da carteira.
-* **Carteira** - Posições atuais da carteira. Calculo de estatísticas agregadas. Usa cotações do app Nassau ST.
-* **Nassau ST** - Transferencia de dados para o app, via copy-paste
+* **Notas** - Use para incluir suas notas de corretagem, além dos dados gerais da carteira.
+* **Carteira** - Posições atuais da carteira. Calculo de estatísticas agregadas. Usa cotações do app Nassau via DDE 
+* **Nassau ST** - Transferencia de dados para o app, via copy-paste to texto do banco de dados ( BD ) 
 
 dicas de uso da planilha ( p/ Windows):
 
