@@ -6,6 +6,8 @@ Esse repositório contém arquivos e tutoriais de suporte ao app **Nassau St**.
 NassauSt é um app para acompanhamento do mercado financeiro e gestão de carteiras de ativos financeiros.
 Está disponivel para **Android iOS e Windows**.
 
+## Versão atual do app: 2.5.2 - mar-22 para Windows, Android e iOS.
+
 Neste texto é proposto um sistema de controle de ativos que consiste em:
 
 * planilha Excel 
@@ -23,10 +25,15 @@ A planilha abaixo contém a tabela de ativos "oficial" de Nassau St:
 
     https://docs.google.com/spreadsheets/d/1rP386BJCjW2MDa9PzYYP5OPzgeO61lG-Vo_EM8GDHho/edit?usp=sharing
   
-* certifique-se de conhecer os Termos de serviço do Google: 
+* certifique-se de conhecer os Termos de serviço do Google 
 
     https://policies.google.com/terms?hl=pt-BR
     
+## Series históricas de preços: **Yahoo Finance**
+
+    https://finance.yahoo.com/
+
+
 ## Como controlar uma carteira de ativos financeiros ? 
 
 Muitos investidores usam os sistemas providos pelas corretoras para controle de suas carteiras.
@@ -213,6 +220,27 @@ versão atual: 2.1.2 jun/21
 * para Windows: https://www.tecepe.com.br/nassau/download   
 * para iOS:     https://apps.apple.com/us/app/nassau-st/id1093819633
 * para Android: https://play.google.com/store/apps/details?id=com.embarcadero.Nassau 
+
+## Fórmulas
+
+Nassau permite criar fórmulas com atualização automática. As formulas podem ter codigo de ativo, de modo que podem aparecer na pagina de cotação ou em outras fórmulas. Permite fazer conversão de moeda, soma de ativos, arbitragens etc. Exemplos de formulas:
+
+ 10*APPL+5*GOOG+5*FB   ( carteira simples dde ações )
+* BTCBRL/BTCUSD      ( retorna o dólar usado na conversão )
+* NVDA*USDBRL/NVDC34/50       ( arbitragem entre stock e BDR ) 
+* EURUSD*USDBRL         ( valor do EUR em R$ ) 
+ 
+Além disso voce pode usar funções pre-definidas (precedidas de @):
+* datas tipo "31/12/2000"
+* @sqrt() , 
+* @hora
+* @minuto
+* @Trunc()
+* @if(1>2,1,2)
+
+
+
+
 
 
 
