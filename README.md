@@ -32,7 +32,9 @@ A planilha abaixo contém a tabela de ativos "oficial" de Nassau St:
 ## Series históricas de preços: **Yahoo Finance**
 
     https://finance.yahoo.com/
-
+    
+    
+[![Nassau St video](https://img.youtube.com/vi/CDMUMQz5g2M/0.jpg)](https://www.youtube.com/watch?v=CDMUMQz5g2M)
 
 ## Como controlar uma carteira de ativos financeiros ? 
 
