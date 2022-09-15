@@ -33,6 +33,7 @@ A planilha abaixo contém a tabela de ativos "oficial" de Nassau St:
 
     https://finance.yahoo.com/
     
+## Video: usando Nassau St com Excel
     
 [![Nassau St video](https://img.youtube.com/vi/CDMUMQz5g2M/0.jpg)](https://www.youtube.com/watch?v=CDMUMQz5g2M)
 
