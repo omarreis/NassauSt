@@ -6,7 +6,7 @@ Esse repositório contém arquivos e tutoriais de suporte ao app **Nassau St**.
 NassauSt é um app para acompanhamento do mercado financeiro e gestão de carteiras de ativos financeiros.
 Multi-plataforma disponivel para **Android iOS e Windows**.
 
-## Versão atual do app: 2.5.2 - mar-22 para Windows, Android e iOS.
+## Versão atual do app: 3.0 - set-22 para Windows, Android e iOS.
 
 Neste texto é proposto um sistema de controle de ativos que consiste em:
 
@@ -165,6 +165,7 @@ Para cada conta é mantida uma lista de posições em carteira e inclui estátis
 * Lucro/prejuízo da posição
 * Prazo médio da posição
 * Taxa de retorno anualizada 
+* Rendimentos recebidos (dividendos, Juros sobre Capital Próprio, Rendimento de FII)
 
 ![image](https://user-images.githubusercontent.com/7995878/121906058-212a1700-cd01-11eb-9f79-58170250a64b.png)
 
