@@ -168,7 +168,7 @@ Para cada conta é mantida uma lista de posições em carteira e inclui estátis
 * Taxa de retorno anualizada 
 * Rendimentos recebidos (dividendos, Juros sobre Capital Próprio, Rendimento de FII)
 
-![image](https://user-images.githubusercontent.com/7995878/121906058-212a1700-cd01-11eb-9f79-58170250a64b.png)
+![image](https://github.com/omarreis/NassauSt/blob/main/HelpPosicaoNassau30.png)
 
 ## Banco de dados em texto
 
