@@ -235,6 +235,9 @@ versão atual: 2.5.2 - released mar/22
 * para iOS:     https://apps.apple.com/us/app/nassau-st/id1093819633   - na AppStore
 * para Android: https://play.google.com/store/apps/details?id=com.embarcadero.Nassau  - no Google Play 
 
+![image](https://github.com/omarreis/NassauSt/blob/main/Platforms.png)
+
+
 ## Fórmulas
 
 Nassau permite criar fórmulas com atualização automática. As formulas podem ser associadas a um código de ativo, de modo que podem aparecer na pagina de cotação ou em outras fórmulas. Permite fazer conversão de moeda, soma de ativos, arbitragens etc. Exemplos de formulas:
