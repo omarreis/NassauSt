@@ -34,9 +34,13 @@ A planilha abaixo contém a tabela de ativos "oficial" de Nassau St:
 
     https://finance.yahoo.com/
     
-## Video: usando Nassau St com Excel
+## Video 1: usando Nassau St com Excel
     
 [![Nassau St video](https://img.youtube.com/vi/CDMUMQz5g2M/0.jpg)](https://www.youtube.com/watch?v=CDMUMQz5g2M)
+
+## Video 2: Bonificações e Splits
+    
+[![Nassau St video](https://img.youtube.com/vi/2hjRMFJWHLQ/0.jpg)](https://www.youtube.com/watch?v=2hjRMFJWHLQ)
 
 ## Como controlar uma carteira de ativos financeiros ? 
 
@@ -55,7 +59,8 @@ A planilha de exemplo faz o controle básico de uma carteira de ativos financeir
 Limpe os dados de exemplo e insira seus próprios dados ( investimento e as notas de corretagem ).
 As notas de corretagem vem do sistema da Corretora ( por email ou via web )
 
-* Download da planilha de controle de ativos: https://github.com/omarreis/NassauSt/blob/main/movimentoBolsaGenerico.xlsx
+* Download da planilha de exemplo para controle da carteira: 
+  https://github.com/omarreis/NassauSt/blob/main/movimentoAtwood.xlsm
 
 ## Controle da carteira
 
@@ -88,6 +93,8 @@ A planilha the controle de exemplo, disponivel para download neste repositório 
 
 * **Notas** - Use para incluir suas notas de corretagem, além dos dados gerais da carteira.
 * **Carteira** - Posições atuais da carteira. Calculo de estatísticas agregadas. Usa cotações do app Nassau via DDE 
+* **Dividendos** - Registro dos rendimentos ( dividendos, jcp, rend FI )
+* **Serie** - Registro da série histórica ( valor da carteira e benchmark IBOV ). Usa macro.
 * **Nassau ST** - Transferencia de dados para o app, via copy-paste to texto do banco de dados ( BD ) 
 
 dicas de uso da planilha ( p/ Windows):
