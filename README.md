@@ -6,8 +6,13 @@ Esse repositório contém arquivos e tutoriais de suporte ao app **Nassau St**.
 NassauSt é um app para acompanhamento do mercado financeiro e gestão de carteiras de ativos financeiros.
 Multi-plataforma disponivel para **Android iOS e Windows**.
 
+* NassauSt é uma solução *softyware only* e gratuita ( usa serviços de cotações gratuitos e anonimos do Google e Yahoo ).
+* NassauSt salva o banco de dados no dispositivo ( não usa a nuvem ) em formato texto.
+* A versão Windows de NasssauSt atua como servidor DDE, permitindo colocar cotações atualizadas no Excel.
+* Planilha de exemplo disponivel neste repositório.
 
 ## Versão atual do app: 3.0 - set-22 para Windows, Android e iOS.
+Procure nas lojas de aplicativos por "NassauSt"
 
 Neste texto é proposto um sistema de controle de ativos que consiste em:
 
