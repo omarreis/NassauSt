@@ -74,10 +74,29 @@ Select **Project Settings > Script Properties**. Click **Edit script properties*
 Click Add **Script Property**:
 
 name: OILPRICES_AK 
+
 set APIKey value as received from Oil prices website.
 
+Remember to confirm your registration on email.
 
+Select from script menu **Triggers**  
+Click **Create Trigger* button
 
+Set Event type = Time-based
+Function TriggerUpdateBrent
+
+Click the Save the script button
+
+## Test the script
+
+The script must be run at least once manually.
+Go to the editor, select TriggerUpdateBrent and click run
+
+The Execution log should show the script run success.
+
+--xx--
+
+Omar: 31/03/26 creation
 
 
 
