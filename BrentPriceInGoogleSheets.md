@@ -1,6 +1,6 @@
 # How to get brent oil prices into your Google spreadsheet
 
-This file is in suppor of **Nassau St** financial app
+This file is in support of **Nassau St** financial app
 
 ## About NassauSt: 
 NassauSt é um app para acompanhamento do mercado financeiro e gestão de carteiras de ativos financeiros.
@@ -100,7 +100,6 @@ Go to the editor, select **TriggerUpdateBrent** and click **Run**
 The Execution log should show the script run success.
 
 Now go back to the Sheet1 spreadsheet. The brent prices should be on the cells. 
-
 
 --xx--
 
