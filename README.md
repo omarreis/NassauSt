@@ -30,10 +30,20 @@ Se voce precisa de cotações em tempo real, consulte a enfoque ( www.enfoque.co
 A planilha abaixo contém a tabela de ativos "oficial" de Nassau St:
 
     https://docs.google.com/spreadsheets/d/1rP386BJCjW2MDa9PzYYP5OPzgeO61lG-Vo_EM8GDHho/edit?usp=sharing
-  
+
 * certifique-se de conhecer os Termos de serviço do Google 
 
     https://policies.google.com/terms?hl=pt-BR
+
+## Brent oil price
+
+A importante cotação do Brent é obtida do site **oilpriceapi.com** 
+
+* Este texto explica como ataulizar o preço do Brent na sua planilha Google:
+
+    https://github.com/omarreis/NassauSt/blob/main/BrentPriceInGoogleSheets.md
+    
+* No Nassau St use o ticker **BRENT**  
     
 ## Series históricas de preços: **Yahoo Finance**
 
