@@ -16,6 +16,7 @@ There is a free service tier if you do less than 10000 queries per month.
 In the case in this sample, we will be doing updates every 30 minutes.
 So it is about 1440 updates per month. 
 
+## Set the code
 You have to have Edit rights on the spreadsheet.
 This sample updates the value of three cells of a spreadsheet named **Sheet1**:
 
@@ -23,6 +24,7 @@ This sample updates the value of three cells of a spreadsheet named **Sheet1**:
       celulaHora  = "I8";     // query time cell
       celulaTeste = "J8";     // error message cell
 
+Change cell locations and spread sheet name as needed.
 On the speadsheet, select from menu: 
 
 > Extensions > App script
@@ -66,21 +68,22 @@ type code (JavaScript):
       }
     }
 
-This code doanloads Brent prices from the website via https. 
-To make this work you have to set the APIKey as a script property.
-This hides the secret key from people seing the Javascript code and alsofrom "Read Only sheet users" (in case you share the sheet with others).
+This code downloads Brent prices from the website via https, parses the data and sets the spreadsheet cells.  
+To make this work you have to set the APIKey available as a script property.
+This hides the secret key from people seing the Javascript code and also from "Read-Only sheet users" (in case you share the sheet with others).
 Script properties are not visible to read-only users.
 
 In the script editor, select menu option  **Extensions > Apps Script**
-
-Select **Project Settings > Script Properties**. Click **Edit script properties**.
-Click Add **Script Property**:
+Select **Project Settings > Script Properties**. 
+Click **Edit script properties**.
+Click **Add Script Property**:
 
 name: OILPRICES_AK 
 set APIKey value as received from Oil prices api website. Click Save.
 
 Remember to confirm your account registration by responding confirmation email.
 
+## Create Trigger
 Select from script menu **Triggers**  
 Click **Create Trigger* button
 
@@ -95,6 +98,9 @@ The script must be run at least once manually. This will register it with servic
 Go to the editor, select **TriggerUpdateBrent** and click **Run**
 
 The Execution log should show the script run success.
+
+Now go back to the Sheet1 spreadsheet. The brent prices should be on the cells. 
+
 
 --xx--
 
