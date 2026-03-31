@@ -7,28 +7,29 @@ NassauSt é um app para acompanhamento do mercado financeiro e gestão de cartei
 Multi-plataforma disponivel para **Android iOS e Windows**.
 
 ## Google sheet trigger
-In this sample we use a time triggered Trigger code to download
-data from website **oilpriceapi.com**
+In this sample we use a time activated Trigger to download data from website **oilpriceapi.com**
 
 ## Sign up and get APIKey
 
 You have to Sign Up with this website **oilpriceapi.com** and get a secret **API key**
-There is a free service tier if you do less than 10000 queries per month (as is the case in this sample)
+There is a free service tier if you do less than 10000 queries per month.
+In the case in this sample, we will be doing updates every 30 minutes.
+So it is about 1440 updates per month. 
 
-You have to have Edit rights on the sheet.
-This trigger updates the value of three cells of spreadsheet **Sheet1**:
+You have to have Edit rights on the spreadsheet.
+This sample updates the value of three cells of a spreadsheet named **Sheet1**:
 
       celulaPreco = "B8";     // brent price cell
       celulaHora  = "I8";     // query time cell
       celulaTeste = "J8";     // error message cell
 
-On the sheet select from menu: 
+On the speadsheet, select from menu: 
 
 > Extensions > App script
 
 This will open the Google Javascript editor. 
 
-type code (JavaScript):>
+type code (JavaScript):
 
     // TriggerUpdateBrent() code for time trigger (each 30 minutes)
     function TriggerUpdateBrent() {   
@@ -65,8 +66,10 @@ type code (JavaScript):>
       }
     }
 
+This code doanloads Brent prices from the website via https. 
 To make this work you have to set the APIKey as a script property.
-This hides the secret key from people seing the Javascript code and also "Read Only sheet users" (in case you share the sheet).
+This hides the secret key from people seing the Javascript code and alsofrom "Read Only sheet users" (in case you share the sheet with others).
+Script properties are not visible to read-only users.
 
 In the script editor, select menu option  **Extensions > Apps Script**
 
@@ -74,23 +77,22 @@ Select **Project Settings > Script Properties**. Click **Edit script properties*
 Click Add **Script Property**:
 
 name: OILPRICES_AK 
+set APIKey value as received from Oil prices api website. Click Save.
 
-set APIKey value as received from Oil prices website.
-
-Remember to confirm your registration on email.
+Remember to confirm your account registration by responding confirmation email.
 
 Select from script menu **Triggers**  
 Click **Create Trigger* button
 
 Set Event type = Time-based
-Function TriggerUpdateBrent
-
-Click the Save the script button
+Minute imnterval = 30 minutes
+select function **TriggerUpdateBrent**
+Click the **Save script** button
 
 ## Test the script
 
-The script must be run at least once manually.
-Go to the editor, select TriggerUpdateBrent and click run
+The script must be run at least once manually. This will register it with service security.
+Go to the editor, select **TriggerUpdateBrent** and click **Run**
 
 The Execution log should show the script run success.
 
