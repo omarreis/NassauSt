@@ -99,7 +99,9 @@ Go to the editor, select **TriggerUpdateBrent** and click **Run**
 
 The Execution log should show the script start and script finish. Or else there is some error.
 
-Now go back to the Sheet1 spreadsheet. The brent prices should be on the cells. 
+Now go back to the Sheet1 spreadsheet. The brent prices should be on the cells.
+
+**Nassau St** app shows the price with ticker **BRENT**
 
 --xx--
 
