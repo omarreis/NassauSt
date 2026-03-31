@@ -85,19 +85,19 @@ Remember to confirm your account registration by responding confirmation email.
 
 ## Create Trigger
 Select from script menu **Triggers**  
-Click **Create Trigger* button
+Click *Create Trigger* button
 
-Set Event type = Time-based
-Minute imnterval = 30 minutes
-select function **TriggerUpdateBrent**
-Click the **Save script** button
+    Set Event type = Time-based
+    Minute imnterval = 30 minutes
+    select function **TriggerUpdateBrent**
+    Click the **Save** button
 
 ## Test the script
 
-The script must be run at least once manually. This will register it with service security.
+The script must be run at least once manually. This will register IT with service security.
 Go to the editor, select **TriggerUpdateBrent** and click **Run**
 
-The Execution log should show the script run success.
+The Execution log should show the script start and script finish. Or else there is some error.
 
 Now go back to the Sheet1 spreadsheet. The brent prices should be on the cells. 
 
