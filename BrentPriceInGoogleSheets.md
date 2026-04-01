@@ -88,9 +88,9 @@ Select from script menu **Triggers**
 Click *Create Trigger* button
 
     Set Event type = Time-based
-    Minute imnterval = 30 minutes
-    select function **TriggerUpdateBrent**
-    Click the **Save** button
+    Minute interval = 30 minutes
+    select function *TriggerUpdateBrent*
+    Click the *Save* button
 
 ## Test the script
 
