@@ -92,6 +92,12 @@ Click *Create Trigger* button
     select function *TriggerUpdateBrent*
     Click the *Save* button
 
+Security detail: It is also possible to obtain the oil price from inside a Function 
+called in a cell formula. 
+
+In this mode however, for security reasons, the function can only affect the cell that called it.
+Calling the code from a Trigger allows setting multiple cells ( price,time,status ) at once.
+
 ## Test the script
 
 The script must be run at least once manually. This will register IT with service security.
