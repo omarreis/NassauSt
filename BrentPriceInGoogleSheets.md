@@ -7,6 +7,8 @@ NassauSt é um app para acompanhamento do mercado financeiro e gestão de cartei
 Multi-plataforma disponivel para **Android iOS e Windows** (I'm not 
 
 ## Google sheet trigger
+Google spreadsheets can use GoogleFinance() function to obtain prices of financial instruments.
+While there is a large choice of assets, some important are missing, like brent crude oil price.
 In this sample we use a time activated Trigger to download data from website **oilpriceapi.com**
 This code was put together from various sources, Reddit posts and oilpriceapi.com samples.
 
