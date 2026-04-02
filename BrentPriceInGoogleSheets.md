@@ -4,7 +4,7 @@ This file is in support of **Nassau St** financial app
 
 ## About NassauSt: 
 NassauSt é um app para acompanhamento do mercado financeiro e gestão de carteiras de ativos financeiros.
-Multi-plataforma disponivel para **Android iOS e Windows**.
+Multi-plataforma disponivel para **Android iOS e Windows** (I'm not 
 
 ## Google sheet trigger
 In this sample we use a time activated Trigger to download data from website **oilpriceapi.com**
@@ -111,6 +111,8 @@ Now go back to the Sheet1 spreadsheet. The brent prices should be on the cells.
 **Nassau St** app shows the price with ticker **BRENT**
 
 --xx--
+
+Language=Javascript, Excel
 
 Omar: 31/03/26 creation
 
