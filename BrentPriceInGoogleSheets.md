@@ -8,6 +8,7 @@ Multi-plataforma disponivel para **Android iOS e Windows**.
 
 ## Google sheet trigger
 In this sample we use a time activated Trigger to download data from website **oilpriceapi.com**
+This code was put together from various sources, Reddit posts and oilpriceapi.com samples.
 
 ## Sign up and get APIKey
 
