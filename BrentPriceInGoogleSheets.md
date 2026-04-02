@@ -114,7 +114,7 @@ Now go back to the Sheet1 spreadsheet. The brent prices should be on the cells.
 
 --xx--
 
-Language=Javascript, Excel
+Language=Javascript, Google Sheets
 
 Omar: 31/03/26 creation
 
