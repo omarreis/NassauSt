@@ -24,14 +24,14 @@ This sample updates the value of three cells of a spreadsheet named **Sheet1**:
       celulaHora  = "I8";     // query time cell
       celulaTeste = "J8";     // error message cell
 
-Change cell locations and spread sheet name as needed.
-On the speadsheet, select from menu: 
+Edit cell locations and spreadsheet name as needed ( on the trigger Javascript code below ) .
+On the Google speadsheet, select from menu: 
 
-> Extensions > App script
+    > Extensions > Apps script
 
 This will open the Google Javascript editor. 
 
-type code (JavaScript):
+type code below (or copy-paste):
 
     // TriggerUpdateBrent() code for time trigger (each 30 minutes)
     function TriggerUpdateBrent() {   
